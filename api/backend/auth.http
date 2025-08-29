@@ -1,0 +1,17 @@
+### Login
+POST http://localhost:8080/auth/login
+Accept: application/json
+Content-Type: application/json
+AQOB-AppAuthToken: {{Tri-AQOB-AppAuthToken}}
+Authorization: {{Tri-Authorization}}
+x-api-key: {{Tri-x-api-key}}
+user-id: 1490
+
+### Logout
+POST http://localhost:8080/auth/logout
+Accept: application/json
+Content-Type: application/json
+AQOB-AppAuthToken: {{AQOB-AppAuthToken}}
+Authorization: {{Authorization}}
+x-api-key: {{x-api-key}}
+user-id: 956

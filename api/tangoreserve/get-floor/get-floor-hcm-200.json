@@ -1,0 +1,239 @@
+{
+  "discriminator": "VNU",
+  "sysidLocatorNode": 11,
+  "sysidParentNode": null,
+  "locationLevel": 0,
+  "name": "Ho Chi Minh Hallmark - Office",
+  "displayOrder": null,
+  "children": [
+    {
+      "discriminator": "VNL",
+      "sysidLocatorNode": 12,
+      "sysidParentNode": 11,
+      "locationLevel": 1,
+      "name": "Level 8",
+      "displayOrder": 1,
+      "children": [],
+      "locationMapImages": [
+        {
+          "sysidLocationMapImage": 2,
+          "name": "1436467_b96cfcea-1c9e-451c-b598-70002e926c95.png",
+          "description": null,
+          "height": 1660,
+          "width": 3072,
+          "imageSource": "https://apac-images.tangoreserve.com/locatorimages-244fc50c-57d3-465f-8478-839309960206.png",
+          "thumbnailSource": "https://apac-images-thumbnails.tangoreserve.com/locatorimages-244fc50c-57d3-465f-8478-839309960206.jpg",
+          "defaultImage": true,
+          "displayOrder": null
+        }
+      ],
+      "locationImages": [],
+      "active": false
+    },
+    {
+      "discriminator": "VNL",
+      "sysidLocatorNode": 13,
+      "sysidParentNode": 11,
+      "locationLevel": 1,
+      "name": "Level 9",
+      "displayOrder": 2,
+      "children": [],
+      "locationMapImages": [
+        {
+          "sysidLocationMapImage": 3,
+          "name": "1436466_abe76ab4-f109-447a-83a9-7daf381a7a38.png",
+          "description": null,
+          "height": 2304,
+          "width": 3072,
+          "imageSource": "https://apac-images.tangoreserve.com/locatorimages-5577fc5a-a803-4e28-84e0-020fe647b813.png",
+          "thumbnailSource": "https://apac-images-thumbnails.tangoreserve.com/locatorimages-5577fc5a-a803-4e28-84e0-020fe647b813.jpg",
+          "defaultImage": true,
+          "displayOrder": null
+        }
+      ],
+      "locationImages": [],
+      "active": false
+    },
+    {
+      "discriminator": "VNL",
+      "sysidLocatorNode": 14,
+      "sysidParentNode": 11,
+      "locationLevel": 1,
+      "name": "Level 10",
+      "displayOrder": 3,
+      "children": [],
+      "locationMapImages": [
+        {
+          "sysidLocationMapImage": 4,
+          "name": "1436065_8a575db2-1ebb-4be5-91f7-85d304b0be27.png",
+          "description": null,
+          "height": 1660,
+          "width": 3072,
+          "imageSource": "https://apac-images.tangoreserve.com/locatorimages-92f361c6-0e9a-4cd0-8b93-26a853446dd4.png",
+          "thumbnailSource": "https://apac-images-thumbnails.tangoreserve.com/locatorimages-92f361c6-0e9a-4cd0-8b93-26a853446dd4.jpg",
+          "defaultImage": true,
+          "displayOrder": null
+        }
+      ],
+      "locationImages": [],
+      "active": false
+    },
+    {
+      "discriminator": "VNL",
+      "sysidLocatorNode": 15,
+      "sysidParentNode": 11,
+      "locationLevel": 1,
+      "name": "Level 11",
+      "displayOrder": 4,
+      "children": [],
+      "locationMapImages": [
+        {
+          "sysidLocationMapImage": 5,
+          "name": "1436465_670df26b-f342-4935-8344-fa6ccbecf9cf.png",
+          "description": null,
+          "height": 2304,
+          "width": 3072,
+          "imageSource": "https://apac-images.tangoreserve.com/locatorimages-69449939-9930-4d4b-adb9-f168955b21a9.png",
+          "thumbnailSource": "https://apac-images-thumbnails.tangoreserve.com/locatorimages-69449939-9930-4d4b-adb9-f168955b21a9.jpg",
+          "defaultImage": true,
+          "displayOrder": null
+        }
+      ],
+      "locationImages": [],
+      "active": false
+    },
+    {
+      "discriminator": "VNL",
+      "sysidLocatorNode": 16,
+      "sysidParentNode": 11,
+      "locationLevel": 1,
+      "name": "Level 12",
+      "displayOrder": 5,
+      "children": [],
+      "locationMapImages": [
+        {
+          "sysidLocationMapImage": 6,
+          "name": "1436468_9647e4bc-cfc9-4084-90aa-65076c6ea55e.png",
+          "description": null,
+          "height": 1660,
+          "width": 3072,
+          "imageSource": "https://apac-images.tangoreserve.com/locatorimages-d59309ad-140a-4794-9de8-bdd241b8214c.png",
+          "thumbnailSource": "https://apac-images-thumbnails.tangoreserve.com/locatorimages-d59309ad-140a-4794-9de8-bdd241b8214c.jpg",
+          "defaultImage": true,
+          "displayOrder": null
+        }
+      ],
+      "locationImages": [],
+      "active": false
+    }
+  ],
+  "locationMapImages": [],
+  "locationImages": [],
+  "active": true,
+  "venue": {
+    "sysidAccount": 3,
+    "sysidAccountVenue": 11,
+    "originalVenue": true,
+    "sysidVenueType": 2,
+    "active": true,
+    "description": null,
+    "sysidTimeZone": 2,
+    "sysidLanguage": 1,
+    "website": null,
+    "directions": null,
+    "address1": "Đường Trần Bạch Đằng, An Phú, Quận 2, Thủ Đức",
+    "address2": null,
+    "city": "Ho Chi Minh",
+    "postalCode": "70000",
+    "stateProvince": null,
+    "country": "VN",
+    "allowAutoBump": true,
+    "exemptAutoBumpOnClosedDays": true,
+    "maxFutureReservationDays": 365,
+    "maxFutureWorkspaces": 0,
+    "showEventsDaysInAdvance": 90,
+    "geofenceMeters": null,
+    "longitude": 106.714,
+    "latitude": 10.778,
+    "message": null,
+    "emailMessage": null,
+    "timeZone": {
+      "sysidTimeZone": 2,
+      "name": "GMT 08:00",
+      "tzvalue": "Asia/Saigon"
+    },
+    "forums": [],
+    "venueTz": "Asia/Saigon",
+    "schedules": [
+      {
+        "sysidVenueSchedule": 2,
+        "name": "Default",
+        "defaultSchedule": true,
+        "scheduleDays": [
+          {
+            "sysidVenueScheduleDay": 12,
+            "weekDay": 5,
+            "open": true,
+            "open24Hours": true,
+            "openMinutesFromMidnight": 0,
+            "closedMinutesFromMidnight": 1440
+          },
+          {
+            "sysidVenueScheduleDay": 13,
+            "weekDay": 3,
+            "open": true,
+            "open24Hours": true,
+            "openMinutesFromMidnight": 0,
+            "closedMinutesFromMidnight": 1440
+          },
+          {
+            "sysidVenueScheduleDay": 14,
+            "weekDay": 4,
+            "open": true,
+            "open24Hours": true,
+            "openMinutesFromMidnight": 0,
+            "closedMinutesFromMidnight": 1440
+          },
+          {
+            "sysidVenueScheduleDay": 8,
+            "weekDay": 6,
+            "open": true,
+            "open24Hours": true,
+            "openMinutesFromMidnight": 0,
+            "closedMinutesFromMidnight": 1440
+          },
+          {
+            "sysidVenueScheduleDay": 9,
+            "weekDay": 7,
+            "open": true,
+            "open24Hours": true,
+            "openMinutesFromMidnight": 0,
+            "closedMinutesFromMidnight": 1440
+          },
+          {
+            "sysidVenueScheduleDay": 10,
+            "weekDay": 1,
+            "open": true,
+            "open24Hours": true,
+            "openMinutesFromMidnight": 0,
+            "closedMinutesFromMidnight": 1440
+          },
+          {
+            "sysidVenueScheduleDay": 11,
+            "weekDay": 2,
+            "open": true,
+            "open24Hours": true,
+            "openMinutesFromMidnight": 0,
+            "closedMinutesFromMidnight": 1440
+          }
+        ],
+        "activationAqDate": null,
+        "expirationAqDate": null,
+        "timeZone": null
+      }
+    ],
+    "contacts": [],
+    "events": [],
+    "displayLinks": []
+  }
+}

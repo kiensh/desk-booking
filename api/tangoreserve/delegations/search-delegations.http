@@ -1,0 +1,7 @@
+GET https://apacbackend.tangoreserve.com/aq-api/users/profiles/delegate-clients?
+    sysidUser=1490
+Accept: application/json
+Content-Type: application/json
+AQOB-AppAuthToken: {{Tri-AQOB-AppAuthToken}}
+Authorization: {{Tri-Authorization}}
+x-api-key: {{Tri-x-api-key}}

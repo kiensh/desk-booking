@@ -1,0 +1,16 @@
+### Get Floors from HoChiMinh
+GET https://apacbackend.tangoreserve.com/aq-api/locations/venues/11
+Accept: application/json
+Content-Type: application/json
+AQOB-AppAuthToken: {{AQOB-AppAuthToken}}
+Authorization: {{Authorization}}
+x-api-key: {{x-api-key}}
+
+
+### Get Floors from HaNoi
+GET https://apacbackend.tangoreserve.com/aq-api/locations/venues/3
+Accept: application/json
+Content-Type: application/json
+AQOB-AppAuthToken: {{AQOB-AppAuthToken}}
+Authorization: {{Authorization}}
+x-api-key: {{x-api-key}}

@@ -1,0 +1,13 @@
+
+### Search users
+POST http://localhost:8080/users/search
+Accept: application/json
+Content-Type: application/json
+AQOB-AppAuthToken: {{AQOB-AppAuthToken}}
+Authorization: {{Authorization}}
+x-api-key: {{x-api-key}}
+
+{
+  "name": "kien nguyen"
+}
+

@@ -1,0 +1,3 @@
+
+### Get Logs
+GET http://localhost:8080/logs

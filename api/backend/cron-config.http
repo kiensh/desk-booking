@@ -1,0 +1,29 @@
+### Get CronConfigs
+GET http://localhost:8080/cron-configs
+Accept: application/json
+AQOB-AppAuthToken: {{Tri-AQOB-AppAuthToken}}
+Authorization: {{Tri-Authorization}}
+x-api-key: {{Tri-x-api-key}}
+user-id: 1490
+
+
+### Update CronConfig
+POST http://localhost:8080/cron-configs
+Accept: application/json
+Content-Type: application/json
+AQOB-AppAuthToken: {{AQOB-AppAuthToken}}
+Authorization: {{Authorization}}
+x-api-key: {{x-api-key}}
+user-id: 956
+
+{
+  "userName": "Kien Nguyen",
+  "autoBookingDesksId": [476, 476, 476, 476, 476],
+  "autoBookingDesksName": ["W.09.017", "W.09.017", "W.09.017", "W.09.017", "W.09.017"],
+  "autoBookingDaysOfWeek": [1, 2, 3, 4, 5],
+  "autoCheckInDaysOfWeek": [2, 4],
+  "startHour": 9,
+  "startMinute": 0,
+  "endHour": 17,
+  "endMinute": 0
+}

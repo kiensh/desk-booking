@@ -1,0 +1,30 @@
+### cancel booking
+PUT https://apacbackend.tangoreserve.com/aq-api/reservations/states
+Accept: application/json
+Content-Type: application/json
+AQOB-AppAuthToken: {{AQOB-AppAuthToken}}
+Authorization: {{Authorization}}
+x-api-key: {{x-api-key}}
+
+{"changes":[{"sysidReservation":195792,"sysidReservationActionType":3}]}
+
+### check in desk
+PUT https://apacbackend.tangoreserve.com/aq-api/reservations/states
+Accept: application/json
+Content-Type: application/json
+AQOB-AppAuthToken: {{AQOB-AppAuthToken}}
+Authorization: {{Authorization}}
+x-api-key: {{x-api-key}}
+
+{"changes":[{"sysidReservation":174817,"sysidReservationActionType":5}]}
+
+
+### check out desk
+PUT https://apacbackend.tangoreserve.com/aq-api/reservations/states
+Accept: application/json
+Content-Type: application/json
+AQOB-AppAuthToken: {{AQOB-AppAuthToken}}
+Authorization: {{Authorization}}
+x-api-key: {{x-api-key}}
+
+{"changes":[{"sysidReservation":174817,"sysidReservationActionType":6}]}

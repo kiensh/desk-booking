@@ -1,0 +1,20 @@
+{
+  "name": "desk-booking",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "concurrently \"yarn server\" \"yarn client\"",
+    "server": "cd app/backend && yarn start",
+    "client": "cd app/frontend && yarn start",
+    "install:all": "yarn install && concurrently \"cd app/backend && yarn install\" \"cd app/frontend && yarn install\"",
+    "build": "concurrently \"cd app/backend && yarn build\" \"cd app/frontend && yarn build\"",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "docker:up": "touch data.json && cd deploy && docker-compose up --build -d",
+    "docker:down": "cd deploy && docker-compose down"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "prettier": "^3.1.0"
+  }
+}

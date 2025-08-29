@@ -1,0 +1,121 @@
+### get all desks
+POST https://apacbackend.tangoreserve.com/aq-api/reservations/views/floorplans/workspaces
+Accept: application/json
+Content-Type: application/json
+AQOB-AppAuthToken: {{AQOB-AppAuthToken}}
+Authorization: {{Authorization}}
+x-api-key: {{x-api-key}}
+
+{
+  "startRow": 0,
+  "maxRows": -1,
+  "sortColumn": "RESOURCE_NAME",
+  "sysidCategories": [2],
+  "discriminator": "WKSP",
+  "sysidAllocRelationships": [2, 3],
+  "sysidUserAlloc": 956,
+  "sysidUserOwner": 956,
+  "sysidLocatorNode": 13,
+  "sysidLocationMapImages": [2,3,4,5,6],
+  "dates": [
+    {
+      "startTime": {
+        "year": 2025,
+        "month": 8,
+        "dayOfMonth": 5,
+        "hour": 0,
+        "minute": 0,
+        "tzIdValue": "Asia/Saigon",
+        "discriminator": "AqDate"
+      },
+      "endTime": {
+        "year": 2025,
+        "month": 8,
+        "dayOfMonth": 5,
+        "hour": 23,
+        "minute": 59,
+        "tzIdValue": "Asia/Saigon",
+        "discriminator": "AqDate"
+      }
+    }
+  ]
+}
+
+
+### get specific desks only
+POST https://apacbackend.tangoreserve.com/aq-api/reservations/views/floorplans/workspaces
+Accept: application/json
+Content-Type: application/json
+AQOB-AppAuthToken: {{AQOB-AppAuthToken}}
+Authorization: {{Authorization}}
+x-api-key: {{x-api-key}}
+
+{
+  "startRow": 0,
+  "maxRows": -1,
+  "sortColumn": "RESOURCE_NAME",
+  "sysidCategories": [
+    2
+  ],
+  "discriminator": "WKSP",
+  "sysidAllocRelationships": [
+    2,
+    3
+  ],
+  "sysidUserAlloc": 956,
+  "sysidUserOwner": 956,
+  "sysidLocatorNode": 13,
+  "sysidLocationMapImages": [
+    3
+  ],
+  "sysidResources": [
+    484,
+    485
+  ],
+  "dates": [
+    {
+      "startTime": {
+        "discriminator": "AqDate",
+        "dayOfMonth": 14,
+        "month": 8,
+        "year": 2025,
+        "hour": 0,
+        "minute": 0,
+        "tzIdValue": "Asia/Saigon"
+      },
+      "endTime": {
+        "discriminator": "AqDate",
+        "dayOfMonth": 14,
+        "month": 8,
+        "year": 2025,
+        "hour": 23,
+        "minute": 59,
+        "tzIdValue": "Asia/Saigon"
+      }
+    }
+  ]
+}
+
+### Get Desks with unavailability-blocks in a month
+POST https://apacbackend.tangoreserve.com/aq-api/availability/unavailability-blocks/rooms
+Accept: application/json
+Content-Type: application/json
+AQOB-AppAuthToken: {{AQOB-AppAuthToken}}
+Authorization: {{Authorization}}
+x-api-key: {{x-api-key}}
+
+{
+  "criteria": {
+    "discriminator": "ROOM",
+    "startRow": 0,
+    "maxRows": 30,
+    "sysidCategories": [2],
+    "sysidUserAlloc": 956,
+    "sysidAllocRelationships": [2, 3],
+    "sysidStatuses": [3],
+    "sysidLocatorNode": 13
+  },
+  "month": 8,
+  "year": 2025,
+  "tzIdValue": "Asia/Saigon"
+}

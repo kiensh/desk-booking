@@ -1,0 +1,15 @@
+### Login
+POST https://apacbackend.tangoreserve.com/auth/application/login
+Accept: application/json
+Content-Type: application/json
+x-api-key: {{x-api-key}}
+
+{
+  "appLogin": "agilquest.com",
+  "appPassword": "AgilquestApplication"
+}
+
+### Claim Token (Cannot Re-claim from the same Token)
+GET https://apacauth.tangoreserve.com/eas-saml/saml/web/authentication/saml/claim?token=fb762b9aa81666279fba04e5f2463ca551fb2dbccd48682872e4af2d14313f60
+Accept: application/json
+AQOB-AppAuthToken: E9FDD7DAB2CF3A5719F569186C52E6F7DBD4F363DD623E32F863D24CFD4395AC

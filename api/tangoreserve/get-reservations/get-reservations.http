@@ -1,0 +1,47 @@
+### get my reservations
+POST https://apacbackend.tangoreserve.com/aq-api/reservations/views
+Accept: application/json
+Content-Type: application/json
+AQOB-AppAuthToken: {{AQOB-AppAuthToken}}
+Authorization: {{Authorization}}
+x-api-key: {{x-api-key}}
+
+{
+  "maxRows": -1,
+  "dates": [
+    {
+      "startTime": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 21,
+        "hour": 0,
+        "minute": 0,
+        "tzIdValue": "Asia/Ho_Chi_Minh",
+        "discriminator": "AqDate"
+      },
+      "endTime": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 21,
+        "hour": 23,
+        "minute": 59,
+        "tzIdValue": "Asia/Ho_Chi_Minh",
+        "discriminator": "AqDate"
+      }
+    }
+  ],
+  "reservationStates": [],
+  "sysidUserOwners": [
+    956
+  ],
+  "sysidUserAlloc": 956,
+  "sysidUserCreators": [
+    956
+  ],
+  "usersArgsOred": true,
+  "sortAscending": true,
+  "sortColumn": "START_TIME",
+  "sysidAllocRelationships": [],
+  "onlyParents": true
+}
+

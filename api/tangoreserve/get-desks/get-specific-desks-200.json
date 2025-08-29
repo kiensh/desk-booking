@@ -1,0 +1,171 @@
+{
+  "hasAdditional": false,
+  "count": 2,
+  "nextStartRow": -1,
+  "views": [
+    {
+      "status": 4,
+      "roomView": {
+        "discriminator": "ROOM",
+        "sysidResource": 484,
+        "name": "W.09.013",
+        "sysidCategory": 2,
+        "sysidResourceType": 16,
+        "typeDescription": "Workspace - Team",
+        "setupMinutes": 0,
+        "breakDownMinutes": 0,
+        "chargeCodeType": 1,
+        "minChargeCodeRequired": 0,
+        "sysidStatus": 3,
+        "minDurationMinutes": 1,
+        "maxDurationMinutes": null,
+        "price": null,
+        "sysidCurrencyType": null,
+        "sysidCostUnitType": null,
+        "allocRelationship": 3,
+        "maxFutureReservationDays": 14,
+        "leadTimeMinutes": 0,
+        "images": [],
+        "sysidVenueNode": 11,
+        "venueName": "Ho Chi Minh Hallmark - Office",
+        "sysidLocatorNode": 13,
+        "locationName": "Level 9",
+        "capacity": 1,
+        "backToBackMinutes": 0,
+        "reqCheckIn": true,
+        "identities": [],
+        "mapImageLocators": [
+          {
+            "sysidMapLocator": null,
+            "sysidMapImage": 3,
+            "sysidLocatorImage": 2,
+            "left": 248,
+            "top": 1235,
+            "height": 63,
+            "width": 63,
+            "transparency": 25,
+            "rotation": 0,
+            "locatorImage": {
+              "sysidLocatorImage": 2,
+              "imageSource": "https://apac-images.tangoreserve.com/resourcelocatorimages.hotspots.shape.circle.png",
+              "imageType": {
+                "sysid": 1,
+                "name": "Available",
+                "languageTagKey": "aq.assets.availability.floorplan.legend.available"
+              }
+            }
+          }
+        ],
+        "sysidResourceGroups": []
+      },
+      "exhaustibleView": null,
+      "sysidReservation": 171086,
+      "reservationName": null,
+      "ownerFirstName": null,
+      "ownerLastName": null,
+      "startTime": {
+        "discriminator": "AqDate",
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 7,
+        "hour": 9,
+        "minute": 30,
+        "tzIdValue": "Asia/Saigon",
+        "noEndDate": false
+      },
+      "endTime": {
+        "discriminator": "AqDate",
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 7,
+        "hour": 18,
+        "minute": 0,
+        "tzIdValue": "Asia/Saigon",
+        "noEndDate": false
+      },
+      "privateReservation": true
+    },
+    {
+      "status": 4,
+      "roomView": {
+        "discriminator": "ROOM",
+        "sysidResource": 485,
+        "name": "W.09.141",
+        "sysidCategory": 2,
+        "sysidResourceType": 16,
+        "typeDescription": "Workspace - Team",
+        "setupMinutes": 0,
+        "breakDownMinutes": 0,
+        "chargeCodeType": 1,
+        "minChargeCodeRequired": 0,
+        "sysidStatus": 3,
+        "minDurationMinutes": 1,
+        "maxDurationMinutes": null,
+        "price": null,
+        "sysidCurrencyType": null,
+        "sysidCostUnitType": null,
+        "allocRelationship": 3,
+        "maxFutureReservationDays": 14,
+        "leadTimeMinutes": 0,
+        "images": [],
+        "sysidVenueNode": 11,
+        "venueName": "Ho Chi Minh Hallmark - Office",
+        "sysidLocatorNode": 13,
+        "locationName": "Level 9",
+        "capacity": 1,
+        "backToBackMinutes": 0,
+        "reqCheckIn": true,
+        "identities": [],
+        "mapImageLocators": [
+          {
+            "sysidMapLocator": null,
+            "sysidMapImage": 3,
+            "sysidLocatorImage": 2,
+            "left": 2807,
+            "top": 1164,
+            "height": 72,
+            "width": 72,
+            "transparency": 25,
+            "rotation": 0,
+            "locatorImage": {
+              "sysidLocatorImage": 2,
+              "imageSource": "https://apac-images.tangoreserve.com/resourcelocatorimages.hotspots.shape.circle.png",
+              "imageType": {
+                "sysid": 1,
+                "name": "Available",
+                "languageTagKey": "aq.assets.availability.floorplan.legend.available"
+              }
+            }
+          }
+        ],
+        "sysidResourceGroups": []
+      },
+      "exhaustibleView": null,
+      "sysidReservation": 166044,
+      "reservationName": null,
+      "ownerFirstName": null,
+      "ownerLastName": null,
+      "startTime": {
+        "discriminator": "AqDate",
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 7,
+        "hour": 9,
+        "minute": 0,
+        "tzIdValue": "Asia/Saigon",
+        "noEndDate": false
+      },
+      "endTime": {
+        "discriminator": "AqDate",
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 7,
+        "hour": 18,
+        "minute": 0,
+        "tzIdValue": "Asia/Saigon",
+        "noEndDate": false
+      },
+      "privateReservation": true
+    }
+  ]
+}

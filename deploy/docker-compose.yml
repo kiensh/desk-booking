@@ -1,0 +1,22 @@
+services:
+  backend:
+    build:
+      context: ..
+      dockerfile: app/backend/Dockerfile
+    platform: linux/amd64
+    environment:
+      - NODE_ENV=production
+      - DATA_PATH=/app/data
+      - PORT=8080
+    volumes:
+      - '../data.json:/app/data/data.json'
+
+  frontend:
+    build:
+      context: ..
+      dockerfile: app/frontend/Dockerfile
+    platform: linux/amd64
+    ports:
+      - '3000:80'
+    depends_on:
+      - backend

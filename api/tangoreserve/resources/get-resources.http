@@ -1,0 +1,5 @@
+GET https://apacbackend.tangoreserve.com/aq-api/resources/476
+Accept: application/json
+AQOB-AppAuthToken: {{AQOB-AppAuthToken}}
+Authorization: {{Authorization}}
+x-api-key: {{x-api-key}}

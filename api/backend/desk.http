@@ -1,0 +1,40 @@
+### Get Desks
+POST http://localhost:8080/desks
+Accept: application/json
+Content-Type: application/json
+AQOB-AppAuthToken: {{AQOB-AppAuthToken}}
+Authorization: {{Authorization}}
+x-api-key: {{x-api-key}}
+user-id: 956
+
+{
+  "date": "2025-08-26"
+}
+
+### Book a Desk
+POST http://localhost:8080/desks/book
+Accept: application/json
+Content-Type: application/json
+AQOB-AppAuthToken: {{AQOB-AppAuthToken}}
+Authorization: {{Authorization}}
+x-api-key: {{x-api-key}}
+user-id: 956
+
+{
+  "date": "2025-07-12",
+  "deskId": 484,
+  "userName": "Kien Nguyen",
+  "startHour": 22,
+  "startMinute": 0,
+  "endHour": 23,
+  "endMinute": 59
+}
+
+### Book a Desk
+POST http://localhost:8080/desks/book-all-days
+Accept: application/json
+Content-Type: application/json
+AQOB-AppAuthToken: {{AQOB-AppAuthToken}}
+Authorization: {{Authorization}}
+x-api-key: {{x-api-key}}
+user-id: 956

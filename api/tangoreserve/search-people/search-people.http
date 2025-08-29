@@ -1,0 +1,49 @@
+
+### search by name
+POST https://apacbackend.tangoreserve.com/aq-api/users/views/search/by-name
+Accept: application/json
+Content-Type: application/json
+AQOB-AppAuthToken: {{AQOB-AppAuthToken}}
+Authorization: {{Authorization}}
+x-api-key: {{x-api-key}}
+
+{
+  "startRow": 0,
+  "maxRows": -1,
+  "firstName": "tri",
+  "lastName": "tran",
+  "sortColumn": "LAST_NAME",
+  "sortAscending": true
+}
+
+
+### search by id user || check your profiles
+POST https://apacbackend.tangoreserve.com/aq-api/users/search
+Accept: application/json
+Content-Type: application/json
+AQOB-AppAuthToken: {{Tri-AQOB-AppAuthToken}}
+Authorization: {{Tri-Authorization}}
+x-api-key: {{Tri-x-api-key}}
+
+{
+  "sysidUser": 1490
+}
+
+### Search by multiple fields
+POST https://apacbackend.tangoreserve.com/aq-api/users/views
+Accept: application/json
+Content-Type: application/json
+AQOB-AppAuthToken: {{AQOB-AppAuthToken}}
+Authorization: {{Authorization}}
+x-api-key: {{x-api-key}}
+
+{
+  "startRow": 0,
+  "maxRows": -1,
+  "firstName": "",
+  "lastName": "",
+  "emailAddress": "Tri.Tran2@",
+  "sysidStatuses": [3],
+  "forManagement": false,
+  "accountOnly": true
+}

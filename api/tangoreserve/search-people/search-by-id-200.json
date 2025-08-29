@@ -1,0 +1,247 @@
+{
+  "profile": {
+    "sysidAccount": 3,
+    "originalUser": true,
+    "privateProfile": false,
+    "firstName": "Kien",
+    "middleInitial": "",
+    "lastName": "Nguyen",
+    "preferredName": "Kien",
+    "comments": null,
+    "sysidLanguage": 1,
+    "address1": null,
+    "address2": null,
+    "city": null,
+    "stateProvince": null,
+    "postalCode": null,
+    "country": null,
+    "sysidDefaultResCategory": 2,
+    "sysidDefaultResType": null,
+    "defaultChargeCode": null,
+    "calendarURL": null,
+    "statusMessage": "",
+    "userEmailPreferences": [
+      {
+        "sysidUserEmailPreference": 19571,
+        "sysidEmailPreferenceType": 1,
+        "sendEmail": true
+      },
+      {
+        "sysidUserEmailPreference": 20931,
+        "sysidEmailPreferenceType": 2,
+        "sendEmail": true
+      },
+      {
+        "sysidUserEmailPreference": 20937,
+        "sysidEmailPreferenceType": 3,
+        "sendEmail": true
+      },
+      {
+        "sysidUserEmailPreference": 20945,
+        "sysidEmailPreferenceType": 4,
+        "sendEmail": true
+      },
+      {
+        "sysidUserEmailPreference": 20946,
+        "sysidEmailPreferenceType": 5,
+        "sendEmail": true
+      },
+      {
+        "sysidUserEmailPreference": 20947,
+        "sysidEmailPreferenceType": 6,
+        "sendEmail": true
+      },
+      {
+        "sysidUserEmailPreference": 20966,
+        "sysidEmailPreferenceType": 7,
+        "sendEmail": true
+      },
+      {
+        "sysidUserEmailPreference": 20982,
+        "sysidEmailPreferenceType": 8,
+        "sendEmail": true
+      },
+      {
+        "sysidUserEmailPreference": 21017,
+        "sysidEmailPreferenceType": 9,
+        "sendEmail": true
+      },
+      {
+        "sysidUserEmailPreference": 21027,
+        "sysidEmailPreferenceType": 10,
+        "sendEmail": true
+      }
+    ],
+    "userImages": [],
+    "userContacts": [],
+    "myPeople": [],
+    "myResources": [],
+    "myDelegates": [],
+    "preferences": [
+      {
+        "sysidUserPreference": 25326,
+        "sysidUserPreferenceType": 1,
+        "keyValue": "true"
+      },
+      {
+        "sysidUserPreference": 25328,
+        "sysidUserPreferenceType": 2,
+        "keyValue": "08:00"
+      },
+      {
+        "sysidUserPreference": 25330,
+        "sysidUserPreferenceType": 3,
+        "keyValue": "true"
+      },
+      {
+        "sysidUserPreference": 25331,
+        "sysidUserPreferenceType": 4,
+        "keyValue": "17:00"
+      },
+      {
+        "sysidUserPreference": 25332,
+        "sysidUserPreferenceType": 8,
+        "keyValue": "true"
+      },
+      {
+        "sysidUserPreference": 25333,
+        "sysidUserPreferenceType": 9,
+        "keyValue": "08:00"
+      },
+      {
+        "sysidUserPreference": 25334,
+        "sysidUserPreferenceType": 10,
+        "keyValue": "true"
+      },
+      {
+        "sysidUserPreference": 25335,
+        "sysidUserPreferenceType": 11,
+        "keyValue": "17:00"
+      },
+      {
+        "sysidUserPreference": 25336,
+        "sysidUserPreferenceType": 15,
+        "keyValue": "true"
+      },
+      {
+        "sysidUserPreference": 25337,
+        "sysidUserPreferenceType": 16,
+        "keyValue": "08:00"
+      },
+      {
+        "sysidUserPreference": 25327,
+        "sysidUserPreferenceType": 17,
+        "keyValue": "true"
+      },
+      {
+        "sysidUserPreference": 25329,
+        "sysidUserPreferenceType": 18,
+        "keyValue": "17:00"
+      }
+    ],
+    "userId": 956
+  },
+  "business": {
+    "emailAddress": "BuiDucKien.Nguyen@nab.com.au",
+    "sysidRole": 4,
+    "manualBumpable": true,
+    "bumpFreesLtr": true,
+    "autoBumpable": true,
+    "autoBumpFreesLtr": true,
+    "reservationSpendingLimit": null,
+    "workSpaceLimit": 1,
+    "maxFutureReservationDays": 365,
+    "gapConflictingWorkspace": true,
+    "disableUiLogin": false,
+    "seatAssignment": null,
+    "groupMemberships": [
+      {
+        "sysidUserGroupMember": 2167,
+        "sysidUserGroup": 5
+      }
+    ],
+    "userAuthRules": [
+      {
+        "sysidAuthorizationRule": 36
+      },
+      {
+        "sysidAuthorizationRule": 5
+      },
+      {
+        "sysidAuthorizationRule": 110
+      },
+      {
+        "sysidAuthorizationRule": 111
+      },
+      {
+        "sysidAuthorizationRule": 112
+      },
+      {
+        "sysidAuthorizationRule": 113
+      },
+      {
+        "sysidAuthorizationRule": 114
+      },
+      {
+        "sysidAuthorizationRule": 115
+      },
+      {
+        "sysidAuthorizationRule": 20
+      },
+      {
+        "sysidAuthorizationRule": 116
+      },
+      {
+        "sysidAuthorizationRule": 117
+      },
+      {
+        "sysidAuthorizationRule": 118
+      },
+      {
+        "sysidAuthorizationRule": 119
+      },
+      {
+        "sysidAuthorizationRule": 120
+      },
+      {
+        "sysidAuthorizationRule": 121
+      },
+      {
+        "sysidAuthorizationRule": 26
+      },
+      {
+        "sysidAuthorizationRule": 32
+      }
+    ],
+    "userAttributeValue": [
+      {
+        "sysidUserAttributeValue": 2233,
+        "sysidUserAttribute": 2,
+        "stringValue": "P015936",
+        "booleanValue": false,
+        "sysidAttributeDataType": 2
+      }
+    ]
+  },
+  "account": {
+    "sysidUserStatus": 3,
+    "userPassword": "",
+    "emailAddress": "BuiDucKien.Nguyen@nab.com.au",
+    "accountLocked": false,
+    "sysidBusinessUnit": null,
+    "sysidDepartment": null,
+    "sysidManager": null,
+    "sysidTitle": null,
+    "sysidDefaultLocation": null,
+    "sysidHomeLocation": null,
+    "userCredentials": [
+      {
+        "sysidUserCredentials": 941,
+        "sysidCredentialsType": 2,
+        "value": "P015936@nab.com.au"
+      }
+    ],
+    "forums": [],
+    "aqPasswordExpDate": null
+  }
+}

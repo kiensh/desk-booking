@@ -1,0 +1,96 @@
+### book a desk
+POST https://apacbackend.tangoreserve.com/aq-api/reservations/events
+Accept: application/json
+Content-Type: application/json
+AQOB-AppAuthToken: {{AQOB-AppAuthToken}}
+Authorization: {{Authorization}}
+x-api-key: {{x-api-key}}
+
+{
+  "sysidUserAlloc": 956,
+  "event": {
+    "name": "Kien Nguyen",
+    "sysidEventOwner": 956,
+    "discriminator": "STND",
+    "recurrenceRule": null,
+    "reservations": [
+      {
+        "sysidUserOwner": 956,
+        "name": "Kien Nguyen",
+        "sysidResource": 484,
+        "discriminator": "ROOM",
+        "sysidPurposeType": 1,
+        "aqStartTime": {
+          "year": 2025,
+          "month": 7,
+          "dayOfMonth": 20,
+          "hour": 17,
+          "minute": 0,
+          "tzIdValue": "Asia/Saigon",
+          "discriminator": "AqDate"
+        },
+        "aqEndTime": {
+          "year": 2025,
+          "month": 7,
+          "dayOfMonth": 20,
+          "hour": 23,
+          "minute": 0,
+          "tzIdValue": "Asia/Saigon",
+          "discriminator": "AqDate"
+        },
+        "privateResv": null,
+        "suppressEmails": false,
+        "children": []
+      }
+    ]
+  }
+}
+
+
+### book a desk on behalf of
+POST https://apacbackend.tangoreserve.com/aq-api/reservations/events
+Accept: application/json
+Content-Type: application/json
+AQOB-AppAuthToken: {{AQOB-AppAuthToken}}
+Authorization: {{Authorization}}
+x-api-key: {{x-api-key}}
+
+{
+  "sysidUserAlloc": 956,
+  "event": {
+    "name": "test",
+    "sysidEventOwner": 1490,
+    "discriminator": "STND",
+    "recurrenceRule": null,
+    "reservations": [
+      {
+        "sysidUserOwner": 1490,
+        "name": "test",
+        "sysidResource": 484,
+        "discriminator": "ROOM",
+        "sysidPurposeType": 1,
+        "aqStartTime": {
+          "discriminator": "AqDate",
+          "dayOfMonth": 26,
+          "month": 7,
+          "year": 2025,
+          "hour": 8,
+          "minute": 0,
+          "tzIdValue": "Asia/Saigon"
+        },
+        "aqEndTime": {
+          "year": 2025,
+          "month": 7,
+          "dayOfMonth": 26,
+          "hour": 17,
+          "minute": 0,
+          "tzIdValue": "Asia/Saigon",
+          "discriminator": "AqDate"
+        },
+        "privateResv": false,
+        "suppressEmails": false,
+        "children": []
+      }
+    ]
+  }
+}

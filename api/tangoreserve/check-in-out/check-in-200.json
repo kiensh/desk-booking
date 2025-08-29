@@ -1,0 +1,14 @@
+{
+  "changes": [
+    {
+      "sysidReservation": 174817,
+      "sysidReservationActionType": 5,
+      "applyToRemaining": false,
+      "suppressEmails": false,
+      "approveChildReservations": false,
+      "forQRCode": false,
+      "succeeded": true,
+      "exceptionData": null
+    }
+  ]
+}

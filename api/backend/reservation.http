@@ -1,0 +1,25 @@
+### Get Reservations
+POST http://localhost:8080/reservations
+Accept: application/json
+Content-Type: application/json
+AQOB-AppAuthToken: {{AQOB-AppAuthToken}}
+Authorization: {{Authorization}}
+x-api-key: {{x-api-key}}
+user-Id: 956
+
+{
+  "date": "2025-07-21"
+}
+
+### reservations actions
+POST http://localhost:8080/reservation-action
+Accept: application/json
+Content-Type: application/json
+AQOB-AppAuthToken: {{AQOB-AppAuthToken}}
+Authorization: {{Authorization}}
+x-api-key: {{x-api-key}}
+
+{
+  "reservationId": "181893",
+  "actionType": "5"
+}
